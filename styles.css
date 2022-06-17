@@ -3,7 +3,7 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-size: 16px;
-    background-color: #fffbf7;
+    background-color: #dedede;
     text-align: center;
 }
 
@@ -82,6 +82,7 @@ body {
 
 .title {
     margin-top: 6.25rem;
+    margin-bottom: 0;
     text-align: center;
     color: #025157;
     font-size: 3.75rem;
@@ -92,4 +93,39 @@ body {
 .description {
     font-family: 'Slabo 27px', serif;
     font-size: 20px;
+}
+
+.form-signup {
+    display: flex;
+    justify-content: center;
+}
+
+.form-signup input[type="email"] {
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border: 2px solid #cecece;
+    border-right: 0px;
+    padding: 1rem 1.25rem;
+    font-size: 16px;
+    color: #a4a4a4;
+}
+
+.form-signup input[type="email"]:focus{
+    border: 2px solid #025157;
+    border-right: 0px;
+    outline: none
+}
+
+.form-signup button[type="submit"] {
+    border: 3px solid #025157;
+    display: inline-block;
+    background-color: #025157;
+    padding: 1rem 1.5rem;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    color:white;
+}
+
+.form-signup button[type="submit"]:hover {
+    cursor: pointer;
 }
