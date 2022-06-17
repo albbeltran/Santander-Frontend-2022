@@ -3,12 +3,13 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-size: 16px;
-    background-color: #dedede;
+    background-color: #fffbf7;
     text-align: center;
 }
 
 .fixed-header {
-    position: fixed;
+    background-color: #fffbf7;
+    position: fixed;    
     top: 0;
     left: 0;
     right: 0;
@@ -87,8 +88,11 @@ body {
     border-radius: 5px;
 }
 
+.main {
+    margin-top: 12.25rem;
+}
+
 .title {
-    margin-top: 6.25rem;
     margin-bottom: 0;
     text-align: center;
     color: #025157;
