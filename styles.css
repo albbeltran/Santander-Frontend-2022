@@ -8,8 +8,8 @@ body {
 }
 
 .header {
-    margin-top: 1em;
     width: 100%;
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -128,4 +128,50 @@ body {
 
 .form-signup button[type="submit"]:hover {
     cursor: pointer;
+}
+
+.thumb {
+    width: 100%;
+}
+
+.section-advertising {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.section-ads-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.section-ads-video .thumb {
+    width: 20%;
+}
+
+.section-ads-video .thumb > img {
+    width: 100%;
+}
+
+.section-ads-description {
+    text-align: left;
+    width: 30%;
+}
+
+.section-ads-description .title {
+    text-align: left;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.section-ads-description .description {
+    margin-bottom: 2rem;
+}
+
+.section-ads-description .form-signup {
+    text-align: left;
+    padding-right: 5rem;
+    margin-bottom: 5rem;
 }
