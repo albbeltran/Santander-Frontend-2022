@@ -7,12 +7,27 @@ body {
     text-align: center;
 }
 
+
+.btn {
+    display: inline-block;
+    background-color: #025157;
+    padding: 1.2rem 1rem;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .fixed-header {
     background-color: #fffbf7;
     position: fixed;    
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .header {
@@ -161,6 +176,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* ADVERTISING VIDEO */
+
 .main .section-advertising {
     display: flex;
     justify-content: center;
@@ -174,12 +191,8 @@ body {
     width: 40%;
 }
 
-.main .section-ads-video .thumb {
+.main .section-ads-video .arrow {
     width: 20%;
-}
-
-.main .section-ads-video .thumb > img {
-    width: 100%;
 }
 
 .main .section-ads-description {
@@ -201,4 +214,97 @@ body {
     text-align: left;
     padding-right: 5rem;
     margin-bottom: 5rem;
+}
+
+/* TESTIMONIALS - GROWING ECOMM BRANDS */
+
+.main .testimonials {
+    max-width: 100%;
+    background-color: #a1d686;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 16em;
+    margin-top: 3em;
+    text-align: left;
+}
+
+.main .testimonials .testimonials-description {
+    max-width: 50%;
+}
+
+.main .testimonials .testimonials-description .title {
+    font-size: 3.35em;
+    line-height: 1.15em;
+    text-align: left;
+}
+
+.main .testimonials .testimonials-description .description {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    line-height: normal;
+}
+
+
+.main .testimonials .testimonials-description .btn {
+    margin-top: 1em;
+}
+
+.main .testimonials .testimonials-description img {
+    margin-top: 2em;
+    width: 90%;
+}
+
+.main .testimonials .card {
+    position: relative;
+    max-width: 35%;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.main .testimonials .card img {
+    width: 100%;
+}
+
+.main .testimonials .card .brandLogo {
+    width: 20%;
+    background-color: #f9da73;
+    padding: 2em 0.5em;
+    border-radius: 100%;
+    position: absolute;
+    left: 70%;
+    bottom: 35%;
+}
+
+.main .testimonials .card .brandLogo > * {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.main .testimonials .card .card-description {
+    padding: 1em;
+}
+
+.main .testimonials .card .card-description .card-title {
+    font-size: 1.5em;
+    color:#025157;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.main .testimonials .card .card-description .description {
+    font-size: 1.25em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    margin-bottom: 2em;
+}
+
+.main .testimonials .card .card-description .btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
