@@ -176,7 +176,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* ADVERTISING VIDEO */
+/** ADVERTISING VIDEO **/
 
 .main .section-advertising {
     display: flex;
@@ -216,7 +216,7 @@ body {
     margin-bottom: 5rem;
 }
 
-/* TESTIMONIALS - GROWING ECOMM BRANDS */
+/** TESTIMONIALS - GROWING ECOMM BRANDS **/
 
 .main .testimonials {
     max-width: 100%;
@@ -225,7 +225,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 2em 16em;
-    margin-top: 3em;
     text-align: left;
 }
 
@@ -307,4 +306,71 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
+}
+
+/** FEATURES SECTION **/
+
+.main .features {
+    max-width: 100%;
+    background-color: #025157;
+    padding: 6em 10em;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 1.75em 1.9em;
+}
+
+.main .features .feature-card {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.main .features .feature-card .feature-description {
+    padding: 2.5em;
+    width: 80%;
+}
+
+.main .features .feature-card .thumb {
+    width: 20%;
+}
+
+.main .features .feature-card .feature-description .icon {
+    width: 10%;
+}
+
+.main .features .feature-card .feature-description .card-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    font-weight: 250;
+    text-align: left;
+}
+
+.main .features .feature-card .feature-description .description {
+    color: rgb(165, 165, 165);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.main .features .feature-card .feature-description .btn-inline {
+    display: inline-block;
+    color: #67b54b; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+}
+
+.main .features .feature-card .feature-description .btn-inline:hover {
+    transform: translate(3%);
+    transition: 0.5s;
 }
