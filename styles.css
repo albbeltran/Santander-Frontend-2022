@@ -132,8 +132,8 @@ body {
 }
 
 .main .form-signup input[type="email"] {
-    border-top-left-radius: 5%;
-    border-bottom-left-radius: 5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border: 2px solid #cecece;
     border-right: 0px;
     padding: 1rem 1.25rem;
@@ -152,8 +152,8 @@ body {
     display: inline-block;
     background-color: #025157;
     padding: 1rem 1.5rem;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 5%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     color:white;
 }
 
@@ -162,8 +162,8 @@ body {
 }
 
 .main .thumb {
-    padding: 4em;
-    width: 60%;
+    margin: 5em 0;
+    width: 70%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -186,7 +186,8 @@ body {
 .main .section-advertising {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    gap: 3em;
+    margin: 5rem 0;
 }
 
 .main .section-ads-video {
@@ -216,101 +217,8 @@ body {
 }
 
 .main .section-ads-description .form-signup {
-    text-align: left;
-    padding-right: 5rem;
-    margin-bottom: 5rem;
-}
-
-/** TESTIMONIALS - GROWING ECOMM BRANDS **/
-
-.main .testimonials {
-    max-width: 100%;
-    background-color: #a1d686;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2em 20%;
-    text-align: left;
-}
-
-.main .testimonials .testimonials-description {
-    max-width: 50%;
-}
-
-.main .testimonials .testimonials-description .title {
-    font-size: 3.35em;
-    line-height: 1.15em;
-    text-align: left;
-}
-
-.main .testimonials .testimonials-description .description {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 350;
-    line-height: normal;
-}
-
-
-.main .testimonials .testimonials-description .btn {
-    margin-top: 1em;
-}
-
-.main .testimonials .testimonials-description img {
-    margin-top: 2em;
-    width: 90%;
-}
-
-.main .testimonials .card {
-    position: relative;
-    max-width: 35%;
-    background-color: white;
-    border-radius: 10px;
-    z-index: 0;
-}
-
-.main .testimonials .card img {
-    width: 100%;
-}
-
-.main .testimonials .card .brandLogo {
-    width: 20%;
-    background-color: #f9da73;
-    padding: 2em 0.5em;
-    border-radius: 100%;
-    position: absolute;
-    left: 70%;
-    bottom: 35%;
-}
-
-.main .testimonials .card .brandLogo > * {
-    width: 100%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0%);
-}
-
-.main .testimonials .card .card-description {
-    padding: 1em;
-}
-
-.main .testimonials .card .card-description .card-title {
-    font-size: 1.5em;
-    color:#025157;
-    font-family: 'Alegreya', serif;
-    font-weight: 500;
-    margin-top: 0;
-}
-
-.main .testimonials .card .card-description .description {
-    font-size: 1.25em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 350;
-    margin-bottom: 2em;
-}
-
-.main .testimonials .card .card-description .btn {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0%);
+    padding: 0;
+    justify-content: left;
 }
 
 /** FEATURES SECTION **/
@@ -380,42 +288,127 @@ body {
     transition: 0.5s;
 }
 
-/** MEDIA-QUERIES */
-@media screen and (max-width:576px) {
+/** TESTIMONIALS - GROWING ECOMM BRANDS **/
 
+.main .testimonials {
+    max-width: 100%;
+    background-color: #a1d686;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7em;
+    padding: 2em 20%;
+    text-align: left;
 }
 
-@media screen and (max-width:800px) {
-    .navbar {
-        display: none;
+.main .testimonials .testimonials-description {
+    max-width: 50%;
+}
+
+.main .testimonials .testimonials-description .title {
+    font-size: 3.35em;
+    line-height: 1.15em;
+    text-align: left;
+}
+
+.main .testimonials .testimonials-description .description {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    line-height: normal;
+}
+
+
+.main .testimonials .testimonials-description .btn {
+    margin-top: 1em;
+}
+
+.main .testimonials .testimonials-description img {
+    margin-top: 2em;
+    width: 90%;
+}
+
+.main .testimonials .card {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.main .testimonials .card img {
+    width: 100%;
+}
+
+.main .testimonials .card .brandLogo {
+    width: 25%;
+    background-color: #f9da73;
+    padding: 2em 0.5em;
+    border-radius: 100%;
+    position: absolute;
+    left: 70%;
+    bottom: 35%;
+}
+
+.main .testimonials .card .brandLogo > * {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.main .testimonials .card .card-description {
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+.main .testimonials .card .card-description .card-title {
+    font-size: 1.5em;
+    color:#025157;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.main .testimonials .card .card-description .description {
+    font-size: 1.25em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    margin-bottom: 3em;
+}
+
+.main .testimonials .card .btn {
+    width: 55%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 1em;
+    height: 65px;
+}
+
+/** MEDIA-QUERIES */
+@media screen and (max-width:1250px) {
+    .main .testimonials {
+        justify-content: center;
+        gap: 5em;
     }
 
-    .main {
-        margin-top: 6em;
+    .main .testimonials .testimonials-description {
+        max-width: 45%;
     }
 
-    .main .title.main {
-        display: block;
-        font-size: 2em;
-        width: 90%;
-        margin: 1em 0;
+    .main .testimonials .card .card-description {
+        margin-top: 1em;
+        padding-bottom: 0;
     }
 
-    .main .description {
-        width: 90%;
-        margin: 0;
-        margin-bottom: 1em;
-        text-align: center;
+    .main .testimonials .card .brandLogo {
+        width: 33%;
+        left: 62%;
+        bottom: 50%;
     }
+}
 
-    .main .thumb {
-        width: 90%;
-    }
-    
-    .main .thumb > * {
-        width: 100%;
-    }
-
+@media screen and (max-width:1096px) {
     .main .section-advertising {
         flex-direction: column-reverse;
         align-items: center;
@@ -424,15 +417,110 @@ body {
     }
 
     .main .section-advertising .section-ads-description {
-        width: 60%;
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 3em;
     }
 
-    .main .section-advertising .section-ads-description > * {
+    .main .section-advertising .section-ads-description .title {
+        text-align: center;
+        font-size: 2em;
+        margin: 1em 3em;
+        padding: 0;
+    }
+
+    .main .section-advertising .section-ads-description .description {
+        margin: 0 15%;
+        padding: 0;
         text-align: center;
     }
 
     .main .section-advertising .section-ads-description .form-signup {
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    .main .testimonials {
+        flex-direction: column;
+        gap: 7em;
+        align-items: center;
+        padding: 5em 0em;
+    }
+
+    .main .testimonials .testimonials-description {
+        width: 100%;
+        text-align: center;
         padding: 0;
+    }
+
+    .main .testimonials .testimonials-description .title {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+
+    .main .testimonials .testimonials-description .description {
+        padding: 0;
+    }
+
+    .main .testimonials .card {
+        max-width: 40%;
+    }
+
+    .main .testimonials .card .card-description .description {
+        padding: 0;
+        text-align: left;
+    }
+
+    .main .testimonials .card .brandLogo {
+        width: 23%;
+        left: 70%;
+        bottom: 33%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .main .testimonials .card .brandLogo {
+        width: 25%;
+        left: 70%;
+        bottom: 40%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .logo {
+        width: 5%;
+    }
+
+    .main {margin-top: 6em;}
+
+    .main > *{text-align: center;}
+
+    .main .title.main {
+        font-size: 2em;
+        margin: 1em 0;
+        padding: 0 1em;
+    }
+
+    .main .description {
+        text-align: center;
+        margin-bottom: 1em;
+        padding: 0 2.5em;
+    }
+
+    .main .call-to-action {
+        padding: 0 2.5em;
+    }
+
+    .main .thumb {
+        width: 90%;
+        margin: 0;
+        margin-top: 4em;
+    }
+    
+    .main .thumb > * {
+        width: 100%;
+        padding-left: 7%;
     }
 
     .main .features {
@@ -448,26 +536,123 @@ body {
         display: none;
     }
 
-    .main .testimonials {
-        padding: 10em;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0;
-        width: 100%;
-    }
-
-    .main .testimonials .testimonials-description {
-        width: 100%;
-        text-align: center;
-    }
-
-    .main .testimonials .testimonials-description .title {
-        text-align: center;
-        margin-bottom: 0.5em;
+    .main .testimonials .card .brandLogo {
+        width: 30%;
+        left: 62%;
+        bottom: 42%;
     }
 }
 
-@media screen and (max-width:1096px) {
+@media screen and (max-width:700px) {
+    .main .testimonials .card .brandLogo {
+        width: 33%;
+        left: 60%;
+        bottom: 47%;
+    }
+}
 
+@media screen and (max-width:576px) {
+    .logo {
+        width: 10%;
+    }
+
+    .main .form-signup {
+        display: inline-block;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main .form-signup input[type="email"] {
+        width: 70%;
+        border: 2px solid #cecece;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        padding: 0.70rem 1.25rem;
+        text-align: center;
+    }
+
+    .main .form-signup button[type="submit"] {
+        width: 70%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        padding: 0.70rem 1.5rem;
+    }
+
+    .main .section-advertising {
+        align-items: center;
+        align-content: center;
+    }
+
+    .main .section-advertising .section-ads-description {margin-bottom: 4em;}
+
+    .main .section-advertising .section-ads-description .title {margin: 1em 1em;}
+
+    .main .section-advertising .section-ads-description .description {
+        margin-top: 1em;
+        padding: 0;
+    }
+
+    .main .section-advertising .section-ads-description .form-signup {
+        margin: auto;
+        margin-top: 2em;
+        text-align: center;
+        padding: 0;
+    }
+
+    .main .section-advertising .section-ads-video video {
+        width: 300px;
+    }
+
+    .main .section-advertising .section-ads-video .arrow {
+        width: 40%;
+    }
+
+    .main .testimonials .testimonials-description {
+        max-width: 70%;
+    }
+
+    .main .testimonials .testimonials-description .description {
+        padding: 0;
+    }
+
+    .main .testimonials .card {
+        max-width: 70%;
+    }
+
+    .main .testimonials .card .card-description .description {
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+    .main .testimonials .card .brandLogo {
+        width: 25%;
+        left: 68%;
+        bottom: 33%;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .main .testimonials .card .brandLogo {
+        width: 30%;
+        left: 65%;
+        bottom: 40%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .main .form-signup input[type="email"],
+    .main .form-signup button[type="submit"] {
+        width: 80%;
+    }
+
+    .main .testimonials .card .brandLogo {
+        width: 33%;
+        left: 60%;
+        bottom: 42%;
+    }
+
+    .main .testimonials .card .btn {
+        width: 60%;
+    }
 }
