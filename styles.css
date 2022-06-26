@@ -514,13 +514,13 @@ hr {
         align-items: center;
         justify-content: space-between;
         margin-bottom: 2em;
-        margin-top: 3.75em;
-        gap: 5em;
+        margin-top: 3em;
     }
 
     .main .section-advertising .section-ads-description {
         width: 100%;
         margin-top: 1em;
+        margin-bottom: 3em;
     }
 
     .main .section-advertising .section-ads-description .title {
