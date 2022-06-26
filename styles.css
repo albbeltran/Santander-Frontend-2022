@@ -19,6 +19,12 @@ body {
     font-size: 17px;
     font-weight: 600;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 350ms ease;
+}
+
+.btn:hover {
+    background-color: #67B548;
+    color: white;
 }
 
 .btn-inline {
@@ -30,12 +36,12 @@ body {
     text-decoration: none;
     text-align: left;
     width: 100%;
+    transition: all 0.5s ease;
 }
 
 .btn-inline:hover {
     color: #67b54b; 
     transform: translate(3%);
-    transition: 0.5s;
 }
 
 .fixed-header {
@@ -172,10 +178,13 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color:white;
+    transition: all 350ms ease;
 }
 
 .main .form-signup button[type="submit"]:hover {
     cursor: pointer;
+    background-color: #67B548;
+    border: 3px solid #67B548;
 }
 
 .main .thumb {
