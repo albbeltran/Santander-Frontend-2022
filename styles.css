@@ -471,6 +471,16 @@ body {
         left: 62%;
         bottom: 50%;
     }
+
+    .main .work-process .description {
+        margin: 0 6em 1em 6em;
+    }
+
+    .main .work-process .steps {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 1.70em;
+    }
 }
 
 @media screen and (max-width:1096px) {
@@ -542,6 +552,10 @@ body {
         left: 70%;
         bottom: 33%;
     }
+
+    .main .work-process .description {
+        margin: 0 3em 1em 3em;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -605,6 +619,19 @@ body {
         width: 30%;
         left: 62%;
         bottom: 42%;
+    }
+
+    .main .work-process .description {
+        margin: 0;
+        margin-bottom: 1em;
+        padding: 0;
+    }
+
+    .main .work-process .steps {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        row-gap: 1.70em;
+        column-gap: 0em;
     }
 }
 
@@ -694,6 +721,20 @@ body {
         left: 68%;
         bottom: 33%;
     }
+
+    .main .work-process {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+
+    .main .work-process .title {
+        font-size: 2em;
+    }
+
+    .main .work-process .description {
+        margin-bottom: 1em;
+        padding: 0;
+    }
 }
 
 
@@ -702,6 +743,11 @@ body {
         width: 30%;
         left: 65%;
         bottom: 40%;
+    }
+
+    .main .work-process {
+        padding-left: 4.20em;
+        padding-right: 4.20em;
     }
 }
 
