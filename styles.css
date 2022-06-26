@@ -514,12 +514,13 @@ hr {
         align-items: center;
         justify-content: space-between;
         margin-bottom: 2em;
+        margin-top: 3.75em;
+        gap: 5em;
     }
 
     .main .section-advertising .section-ads-description {
         width: 100%;
         margin-top: 1em;
-        margin-bottom: 3em;
     }
 
     .main .section-advertising .section-ads-description .title {
@@ -636,6 +637,10 @@ hr {
         width: 100%;
     }
 
+    .main .features .feature-card .feature-description .description {
+        padding: 0;
+    }
+
     .main .features .feature-card .thumb {
         display: none;
     }
@@ -699,8 +704,6 @@ hr {
         align-items: center;
         align-content: center;
     }
-
-    .main .section-advertising .section-ads-description {margin-bottom: 4em;}
 
     .main .section-advertising .section-ads-description .title {margin: 1em 1em;}
 
@@ -785,7 +788,7 @@ hr {
     .main .testimonials .card .brandLogo {
         width: 33%;
         left: 60%;
-        bottom: 42%;
+        bottom: 44%;
     }
 
     .main .testimonials .card .btn {
