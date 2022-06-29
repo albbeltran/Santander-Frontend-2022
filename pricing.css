@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #fffbf7;
+    text-align: center;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #025157;
+    padding: 1.2rem 1rem;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 350ms ease;
+}
+
+.btn:hover {
+    background-color: #67B548;
+    color: white;
+}
+
+.btn-inline {
+    display: inline-block;
+    color: #67b54b; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.btn-inline:hover {
+    color: #67b54b; 
+    transform: translate(3%);
+}
+
+.logo {
+    display: inline-block;
+    width: 3%;
+    align-items: center;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #fffbf7;
+}
+
+.navbar.items {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+}
+
+.navbar.items ul {
+    padding-left: 0em;
+    display: flex;
+}
+
+.navbar.items ul li {
+    list-style: none;
+}
+
+.navbar.items ul li a {
+    padding: 0em 1.56em;
+    color: #025157;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.actions {
+    font-size: 14px;
+}
+
+.actions > * {
+    margin: 0em 0.71em;
+    text-decoration: none; 
+}
+
+.actions .link {
+    color: #67b54b; 
+}
+
+.actions .btn {
+    display: inline-block;
+    padding: 0.85em 1em; 
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: #67B548;
+    border: none;
+    border-radius: 5px;
+}
+
+.header {
+    margin-top: 10em;
+}
+
+.header .title {
+    text-align: center;
+    color: #025157;
+    font-size: 3.75rem;
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+}
+
+.header .text {
+    display: inline-block;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+}
