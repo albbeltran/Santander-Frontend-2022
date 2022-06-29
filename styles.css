@@ -338,7 +338,6 @@ body {
 }
 
 .testimonials .card {
-    position: relative;
     width: 100%;
     background-color: white;
     border-radius: 10px;
@@ -349,26 +348,30 @@ body {
     width: 100%;
 }
 
-.testimonials .card .brandLogo {
-    width: 25%;
+.testimonials .card .card-description .brandLogo {
+    width: 27%;
     background-color: #f9da73;
-    padding: 2em 0.5em;
+    padding: 2em 0em;
     border-radius: 100%;
     position: absolute;
-    left: 70%;
-    bottom: 35%;
+    left: 67%;
+    top: -25%;
+    z-index: 1;
 }
 
 .testimonials .card .brandLogo > * {
-    width: 100%;
+    width: 80%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
 }
 
 .testimonials .card .card-description {
+    position: relative;
     padding: 1em;
+    padding-top: 2.5em;
     padding-bottom: 0;
+    z-index: 0;
 }
 
 .testimonials .card .card-description .card-title {
