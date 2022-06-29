@@ -113,7 +113,7 @@ body {
 }
 
 .header {
-    margin-top: 10em;
+    margin-top: 12.25rem;
 }
 
 .header .title {
@@ -128,6 +128,20 @@ body {
     display: inline-block;
     font-family: 'Slabo 27px', serif;
     font-size: 20px;
-    width: 40%;
+    width: 50%;
     text-align: center;
+    opacity: 0.70;
+}
+
+.btn-light {
+    color: #4c4c4c;
+    background-color: #f8f9fa;
+}
+
+.platforms h5 {
+    font-size: 14px;
+    margin-bottom: 1.25em;
+    color: #025157;
+    font-weight: 500;
+    opacity: 0.6;
 }
