@@ -325,13 +325,14 @@ body {
 }
 
 .testimonials .card .card-description .brandLogo {
-    width: 27%;
+    width: 90px;
+    height: 90px;
     background-color: #f9da73;
     padding: 2em 0em;
     border-radius: 100%;
     position: absolute;
-    left: 67%;
-    top: -25%;
+    right: 20px;
+    top: -60px;
     z-index: 1;
 }
 
@@ -503,12 +504,6 @@ hr {
         padding-bottom: 0;
     }
 
-    .main .testimonials .card .brandLogo {
-        width: 33%;
-        left: 62%;
-        bottom: 50%;
-    }
-
     .main .work-process .description {
         margin: 0 6em 1em 6em;
     }
@@ -585,22 +580,8 @@ hr {
         text-align: left;
     }
 
-    .main .testimonials .card .brandLogo {
-        width: 23%;
-        left: 70%;
-        bottom: 33%;
-    }
-
     .main .work-process .description {
         margin: 0 3em 1em 3em;
-    }
-}
-
-@media screen and (max-width:900px) {
-    .main .testimonials .card .brandLogo {
-        width: 25%;
-        left: 70%;
-        bottom: 40%;
     }
 }
 
@@ -657,12 +638,6 @@ hr {
         display: none;
     }
 
-    .main .testimonials .card .brandLogo {
-        width: 30%;
-        left: 62%;
-        bottom: 42%;
-    }
-
     .main .work-process .description {
         margin: 0;
         margin-bottom: 1em;
@@ -674,14 +649,6 @@ hr {
         grid-template-rows: auto auto auto auto;
         row-gap: 1.70em;
         column-gap: 0em;
-    }
-}
-
-@media screen and (max-width:700px) {
-    .main .testimonials .card .brandLogo {
-        width: 33%;
-        left: 60%;
-        bottom: 47%;
     }
 }
 
@@ -756,12 +723,6 @@ hr {
         margin-bottom: 1em;
     }
 
-    .main .testimonials .card .brandLogo {
-        width: 25%;
-        left: 68%;
-        bottom: 33%;
-    }
-
     .main .work-process {
         padding-left: 6em;
         padding-right: 6em;
@@ -779,12 +740,6 @@ hr {
 
 
 @media screen and (max-width:425px) {
-    .main .testimonials .card .brandLogo {
-        width: 30%;
-        left: 65%;
-        bottom: 40%;
-    }
-
     .main .work-process {
         padding-left: 4.20em;
         padding-right: 4.20em;
@@ -796,13 +751,7 @@ hr {
     .main .form-signup button[type="submit"] {
         width: 80%;
     }
-
-    .main .testimonials .card .brandLogo {
-        width: 33%;
-        left: 60%;
-        bottom: 44%;
-    }
-
+    
     .main .testimonials .card .btn {
         width: 60%;
     }
