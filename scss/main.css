@@ -1,0 +1,638 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #fffbf7;
+  text-align: center;
+}
+
+body hr {
+  margin: 0;
+}
+
+body .btn {
+  display: inline-block;
+  background-color: #025157;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+body .btn:hover {
+  background-color: #67B548;
+  color: white;
+}
+
+body .btn-inline {
+  display: inline-block;
+  color: #67b54b;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: left;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body .btn-inline:hover {
+  color: #67b54b;
+  -webkit-transform: translate(3%);
+          transform: translate(3%);
+}
+
+body .navbar {
+  text-align: center;
+  background-color: #fffbf7;
+}
+
+body .navbar .container-fluid .logo {
+  display: inline-block;
+  width: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .navbar .container-fluid .logo img {
+  width: 100%;
+}
+
+body .navbar .container-fluid .logo .collapse .d-flex .actions {
+  font-size: 14px;
+}
+
+body .navbar .container-fluid .logo .collapse .d-flex .actions > * {
+  margin: 0em 0.71em;
+  text-decoration: none;
+}
+
+body .navbar .container-fluid .logo .collapse .d-flex .actions .link {
+  color: #67b54b;
+}
+
+body .navbar .container-fluid .logo .collapse .d-flex .actions .btn {
+  display: inline-block;
+  padding: 0.85em 1em;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  background-color: #67B548;
+  border: none;
+  border-radius: 5px;
+}
+
+body .navbar .main {
+  margin-top: 12.25rem;
+  /** ADVERTISING VIDEO **/
+  /** FEATURES SECTION **/
+  /** TESTIMONIALS - GROWING ECOMM BRANDS **/
+  /** WORK STEPS - SECTION **/
+  /** BLOG - SECTION **/
+}
+
+body .navbar .main .title {
+  margin-bottom: 0;
+  text-align: center;
+  color: #025157;
+  font-size: 3.75rem;
+  font-family: 'Alegreya', serif;
+  font-weight: 900;
+}
+
+body .navbar .main .description {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+body .navbar .main .form-signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .navbar .main .form-signup input[type="email"] {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 2px solid #cecece;
+  border-right: 0px;
+  padding: 1rem 1.25rem;
+  font-size: 16px;
+  color: #a4a4a4;
+}
+
+body .navbar .main .form-signup input[type="email"]:focus {
+  border: 2px solid #025157;
+  border-right: 0px;
+  outline: none;
+}
+
+body .navbar .main .form-signup button[type="submit"] {
+  border: 3px solid #025157;
+  display: inline-block;
+  background-color: #025157;
+  padding: 1rem 1.5rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+body .navbar .main .form-signup button[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #67B548;
+  border: 3px solid #67B548;
+}
+
+body .navbar .main .thumb {
+  margin: 5em 0;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+body .navbar .main .thumb * {
+  width: 100%;
+}
+
+body .navbar .main .call-to-action {
+  display: inline-block;
+  margin-top: 2em;
+  color: #a5a5a5;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body .navbar .main .section-advertising {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3em;
+  margin: 5rem 0;
+}
+
+body .navbar .main .section-advertising .section-ads-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+}
+
+body .navbar .main .section-advertising .section-ads-video .arrow {
+  width: 20%;
+}
+
+body .navbar .main .section-advertising .section-ads-description {
+  text-align: left;
+  width: 30%;
+}
+
+body .navbar .main .section-advertising .section-ads-description .title {
+  text-align: left;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+body .navbar .main .section-advertising .section-ads-description .description {
+  margin-bottom: 2rem;
+}
+
+body .navbar .main .section-advertising .section-ads-description .form-signup {
+  padding: 0;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+body .navbar .main .features {
+  max-width: 100%;
+  background-color: #025157;
+  padding: 6em 15%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  gap: 1.75em 1.9em;
+}
+
+body .navbar .main .features .feature-card {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+body .navbar .main .features .feature-card .feature-description {
+  padding: 2.5em;
+  width: 80%;
+}
+
+body .navbar .main .features .feature-card .feature-description .icon {
+  width: 10%;
+}
+
+body .navbar .main .features .feature-card .feature-description .thumb {
+  width: 20%;
+}
+
+body .navbar .main .features .feature-card .feature-description .card-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5em;
+  font-weight: 250;
+  text-align: left;
+}
+
+body .navbar .main .features .feature-card .feature-description .description {
+  color: #a5a5a5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: left;
+}
+
+body .navbar .main .testimonials {
+  max-width: 100%;
+  background-color: #a1d686;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 7em;
+  padding: 2em 20%;
+  text-align: left;
+}
+
+body .navbar .main .testimonials .testimonials-description {
+  max-width: 50%;
+}
+
+body .navbar .main .testimonials .testimonials-description .title {
+  font-size: 3.35em;
+  line-height: 1.15em;
+  text-align: left;
+}
+
+body .navbar .main .testimonials .testimonials-description .description {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 350;
+  line-height: normal;
+}
+
+body .navbar .main .testimonials .testimonials-description .btn {
+  margin-top: 1em;
+}
+
+body .navbar .main .testimonials .testimonials-description img {
+  margin-top: 2em;
+  width: 90%;
+}
+
+body .navbar .main .testimonials .card {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+body .navbar .main .testimonials .card img {
+  width: 100%;
+}
+
+body .navbar .main .testimonials .card .card-description {
+  position: relative;
+  padding: 1em;
+  padding-top: 2.5em;
+  padding-bottom: 0;
+  z-index: 0;
+}
+
+body .navbar .main .testimonials .card .card-description .brandLogo {
+  width: 90px;
+  height: 90px;
+  background-color: #f9da73;
+  padding: 2em 0em;
+  border-radius: 100%;
+  position: absolute;
+  right: 20px;
+  top: -60px;
+  z-index: 1;
+}
+
+body .navbar .main .testimonials .card .card-description .brandLogo * {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+body .navbar .main .testimonials .card .card-description .card-title {
+  font-size: 1.5em;
+  color: #025157;
+  font-family: 'Alegreya', serif;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+body .navbar .main .testimonials .card .card-description .description {
+  font-size: 1.25em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 350;
+}
+
+body .navbar .main .testimonials .card .statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+
+body .navbar .main .testimonials .card .statistics img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+}
+
+body .navbar .main .testimonials .card .statistics .description {
+  font-size: 16px;
+  color: #8b8b8bcc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+body .navbar .main .testimonials .card .btn {
+  width: 55%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  margin-bottom: 1em;
+  height: 65px;
+}
+
+body .navbar .main .testimonials .carousel-control-prev {
+  position: absolute;
+  left: -18%;
+  opacity: 0.75;
+}
+
+body .navbar .main .testimonials .carousel-control-next {
+  position: absolute;
+  right: -18%;
+  opacity: 0.75;
+}
+
+body .navbar .main .work-process {
+  max-width: 100%;
+  background-color: #fffbf7;
+  padding: 4.75em 10.5em;
+}
+
+body .navbar .main .work-process .title {
+  font-size: 3em;
+  margin: 0 0 0.15em 0;
+}
+
+body .navbar .main .work-process .description {
+  margin: 0 12em 1em 12em;
+}
+
+body .navbar .main .work-process .btn {
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+body .navbar .main .work-process .steps {
+  margin-top: 4.5em;
+  max-width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -webkit-column-gap: 1.70em;
+          column-gap: 1.70em;
+}
+
+body .navbar .main .work-process .steps .card-step {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  text-align: left;
+}
+
+body .navbar .main .work-process .steps .card-step .card-description {
+  padding: 1.25em;
+}
+
+body .navbar .main .work-process .steps .card-step .card-description .card-img {
+  width: 100%;
+}
+
+body .navbar .main .work-process .steps .card-step .card-description .card-title {
+  text-align: center;
+  font-size: 1.85em;
+  font-family: 'Alegreya', serif;
+  color: #025157;
+  font-weight: 900;
+  line-height: 2.25em;
+}
+
+body .navbar .main .work-process .steps .card-step .card-description .description {
+  margin: 1em 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+}
+
+body .navbar .main .blog {
+  max-width: 100%;
+  background-color: white;
+  padding: 4.75em 9.5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 32% 32%;
+      grid-template-columns: 30% 32% 32%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .navbar .main .blog .promotional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .navbar .main .blog .promotional .btn {
+  margin-top: 2em;
+  width: 50%;
+  padding: 12px;
+}
+
+body .navbar .main .blog .promotional .title {
+  line-height: 45px;
+  margin-bottom: 1.25rem;
+  font-size: 32px;
+  text-align: left;
+}
+
+body .navbar .main .blog .promotional .steps .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+body .navbar .main .blog .promotional .steps .step .thumb {
+  width: 15%;
+  margin: 0;
+  text-align: left;
+}
+
+body .navbar .main .blog .promotional .steps .step .thumb img {
+  width: 100%;
+  text-align: left;
+}
+
+body .navbar .main .blog .promotional .steps .step .step-description * {
+  text-align: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+body .navbar .main .blog .promotional .steps .step .step-description .title {
+  font-size: 1.90em;
+  color: #025157;
+  font-weight: 400;
+}
+
+body .navbar .main .blog .promotional .steps .step .step-description .description {
+  font-size: 1em;
+  color: #135359;
+}
+
+body .navbar .main .blog .card {
+  width: 100%;
+}
+
+body .navbar .main .blog .card .card-description {
+  padding: 1em;
+}
+
+body .navbar .main .blog .card .card-description * {
+  text-align: left;
+}
+
+body .navbar .main .blog .card .card-description .title {
+  font-size: 1.5em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  color: #4a4a4a;
+  margin-bottom: 0.75em;
+}
+
+body .navbar .main .blog .card .card-description .metadata * {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.85em;
+}
+
+body .navbar .main .blog .card .card-description .metadata .category {
+  color: #67b54b;
+}
+
+body .navbar .main .blog .card .card-description .metadata .time {
+  color: #979797;
+}
+
+body .navbar .main .blog .card .card-description .description {
+  font-size: 1.10em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4a4a4a;
+}
+
+body .navbar .footer {
+  background-color: white;
+  padding: 3.5em;
+}
+
+body .navbar .footer .description {
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
