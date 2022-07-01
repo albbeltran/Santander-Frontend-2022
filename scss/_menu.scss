@@ -1,7 +1,7 @@
 body {
     .navbar {
         text-align: center;
-        background-color: #fffbf7;
+        background-color: $background-white;
 
         .container-fluid {
             .logo {
@@ -9,38 +9,38 @@ body {
                 width: 3%;
                 align-items: center;
 
-                img {
+                &>img {
                     width: 100%;
                 }
+            }
 
-                .collapse {
-                    .d-flex {
-                        .actions {
+            .collapse {
+                .form {
+                    .actions {
+                        font-size: 14px;
+
+                        &>* {
+                            margin: 0em 0.71em;
+                            text-decoration: none;
+                        }
+
+                        .link {
+                            color: $btn-hover-green;
+                        }
+
+                        .btn {
+                            display: inline-block;
+                            padding: 0.85em 1em;
                             font-size: 14px;
-
-                            >* {
-                                margin: 0em 0.71em;
-                                text-decoration: none;
-                            }
-
-                            .link {
-                                color: #67b54b;
-                            }
-
-                            .btn {
-                                display: inline-block;
-                                padding: 0.85em 1em;
-                                font-size: 14px;
-                                text-align: center;
-                                color: white;
-                                background-color: #67B548;
-                                border: none;
-                                border-radius: 5px;
-                            }
+                            text-align: center;
+                            color: white;
+                            background-color: #67B548;
+                            border: none;
+                            border-radius: 5px;
                         }
                     }
                 }
             }
-        }  
+        }
     }
 }

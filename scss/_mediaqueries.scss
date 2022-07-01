@@ -111,73 +111,83 @@
 }
 
 @media screen and (max-width:800px) {
-    .logo {
-        width: 5%;
+    body {
+        .navbar {
+            .container-fluid {
+                .logo {
+                    width: 5%;
+                }
+            }
+        }
     }
 
     .main {
         margin-top: 6em;
-    }
 
-    .main>* {
-        text-align: center;
-    }
+        &>* {
+            text-align: center;
+        }
 
-    .main .title.main {
-        font-size: 2em;
-        margin: 1em 0;
-        padding: 0 1em;
-    }
+        .title.main {
+            font-size: 2em;
+            margin: 1em 0;
+            padding: 0 1em;
+        }
 
-    .main .description {
-        text-align: center;
-        margin-bottom: 1em;
-        padding: 0 2.5em;
-    }
+        .description {
+            text-align: center;
+            margin-bottom: 1em;
+            padding: 0 2.5em;
+        }
 
-    .main .call-to-action {
-        padding: 0 2.5em;
-    }
+        .call-to-action {
+            padding: 0 2.5em;
+        }
 
-    .main .thumb {
-        width: 90%;
-        margin: 0;
-        margin-top: 4em;
-    }
+        .thumb {
+            width: 90%;
+            margin: 0;
+            margin-top: 4em;
 
-    .main .thumb>* {
-        width: 100%;
-        padding-left: 7%;
-    }
+            &>* {
+                width: 100%;
+                padding-left: 7%;
+            }
+        }
 
-    .main .features {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
-    }
+        .features {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto;
 
-    .main .features .feature-card .feature-description {
-        width: 100%;
-    }
+            .feature-card {
+                .feature-description {
+                    width: 100%;
 
-    .main .features .feature-card .feature-description .description {
-        padding: 0;
-    }
+                    .description {
+                        padding: 0;
+                    }
+                }
 
-    .main .features .feature-card .thumb {
-        display: none;
-    }
+                .thumb {
+                    display: none;
+                }
+            }
+        }
 
-    .main .work-process .description {
-        margin: 0;
-        margin-bottom: 1em;
-        padding: 0;
-    }
+        .work-process {
+            .description {
+                margin: 0;
+                margin-bottom: 1em;
+                padding: 0;
+            }
 
-    .main .work-process .steps {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
-        row-gap: 1.70em;
-        column-gap: 0em;
+            .steps {
+                grid-template-columns: auto;
+                grid-template-rows: auto auto auto auto;
+                row-gap: 1.70em;
+                column-gap: 0em;
+            }
+        }
     }
 }
 
