@@ -484,5 +484,34 @@ body {
                 }
             }
         }
+
+        /** CAT / FULL - SECTION **/
+        .cat-full {
+            padding: 5%;
+            background-color: $background-green-cat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .title {
+                margin-bottom: 1.75rem;
+            }
+
+            .form-signup {
+                button[type="submit"] {
+                    &:hover {
+                        background-color: $btn-green-dark-hover;
+                        border: 3px solid $btn-green-dark-hover;
+                    }
+                }
+            }
+
+            .call-to-action {
+                margin-top: 1.5rem;
+                color: white;
+                font-size: 1rem;
+            }
+        }
     }
 }

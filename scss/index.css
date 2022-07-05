@@ -95,6 +95,7 @@ body .main {
   /** TESTIMONIALS - GROWING ECOMM BRANDS **/
   /** WORK STEPS - SECTION **/
   /** BLOG - SECTION **/
+  /** CAT / FULL - SECTION **/
 }
 
 body .main .title {
@@ -609,6 +610,39 @@ body .main .blog .card .card-description .description {
 
 body .main .blog .card .card-description .description .link {
   color: #4a4a4a;
+}
+
+body .main .cat-full {
+  padding: 5%;
+  background-color: #96d178;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .cat-full .title {
+  margin-bottom: 1.75rem;
+}
+
+body .main .cat-full .form-signup button[type="submit"]:hover {
+  background-color: #003135;
+  border: 3px solid #003135;
+}
+
+body .main .cat-full .call-to-action {
+  margin-top: 1.5rem;
+  color: white;
+  font-size: 1rem;
 }
 
 body .footer {
