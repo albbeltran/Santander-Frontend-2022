@@ -1,0 +1,157 @@
+.btn {
+  display: inline-block;
+  background-color: #025157;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.btn:hover {
+  background-color: #67B548;
+  color: white;
+}
+
+.btn-inline {
+  display: inline-block;
+  color: #67b54b;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: left;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn-inline:hover {
+  color: #67b54b;
+  -webkit-transform: translate(3%);
+          transform: translate(3%);
+}
+
+body .navbar {
+  text-align: center;
+  background-color: #fffbf7;
+}
+
+body .navbar .container-fluid .logo {
+  display: inline-block;
+  width: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .navbar .container-fluid .logo > img {
+  width: 100%;
+}
+
+body .navbar .container-fluid .collapse .form .actions {
+  font-size: 14px;
+}
+
+body .navbar .container-fluid .collapse .form .actions > * {
+  margin: 0em 0.71em;
+  text-decoration: none;
+}
+
+body .navbar .container-fluid .collapse .form .actions .link {
+  color: #67b54b;
+}
+
+body .navbar .container-fluid .collapse .form .actions .btn {
+  display: inline-block;
+  padding: 0.85em 1em;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  background-color: #67B548;
+  border: none;
+  border-radius: 5px;
+}
+
+body {
+  font-size: 16px;
+  background-color: #fffbf7;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+body main .title {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+body main .description {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 16px;
+}
+
+body main .cards {
+  margin-top: 4rem;
+  padding: 0 7rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+body main .cards .card {
+  border: none;
+}
+
+body main .cards .card .thumb {
+  width: 100%;
+}
+
+body main .cards .card .thumb figure {
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+body main .cards .card .thumb figure img {
+  width: 100%;
+}
+
+body main .cards .card .card-description {
+  padding: 1rem 0;
+  background-color: #fffbf7;
+}
+
+body main .cards .card .card-description .title-card {
+  display: inline-block;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+body main .cards .card .card-description .description {
+  font-size: 18px;
+}
+/*# sourceMappingURL=aboutUs.css.map */
