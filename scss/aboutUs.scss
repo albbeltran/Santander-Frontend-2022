@@ -2,6 +2,8 @@
 
 @import "menu";
 
+@import "keyframes";
+
 body {
     font-size: 16px;
     background-color: $background-white;
@@ -25,6 +27,22 @@ body {
             font-size: 18px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             margin-bottom: 16px
+        }
+
+        .arrow {
+            margin-top: 3rem;
+            margin-bottom: 8rem;
+            width: 100%;
+            animation-name: up-and-down;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            img {
+                width: 10%;
+                transform: rotate(-90deg);
+            }
         }
 
         .cards {
