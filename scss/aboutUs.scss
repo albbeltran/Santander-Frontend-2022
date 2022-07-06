@@ -42,11 +42,17 @@ body {
 
                     figure {
                         overflow: hidden;
+                        transition: all 500ms ease;
                         border-radius: 5px;
                         box-shadow: 1px 5px 20px rgba(0,0,0,0.1);
 
                         img {
                             width: 100%;
+                            transition: all 500ms ease;
+                            
+                            &:hover {
+                                transform: scale(1.04);
+                            }
                         }
                     }
                 }
@@ -63,6 +69,12 @@ body {
                         font-weight: 500;
                         margin-bottom: 20px;
                         text-decoration: none;
+                        transition: color 350ms ease;
+
+                        &:hover {
+                            color:$btn-hover-green;
+                            cursor: pointer;
+                        }
                     }
 
                     .description {

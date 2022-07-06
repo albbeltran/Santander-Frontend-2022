@@ -127,6 +127,8 @@ body main .cards .card .thumb {
 
 body main .cards .card .thumb figure {
   overflow: hidden;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
   border-radius: 5px;
   -webkit-box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.1);
@@ -134,6 +136,13 @@ body main .cards .card .thumb figure {
 
 body main .cards .card .thumb figure img {
   width: 100%;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+body main .cards .card .thumb figure img:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
 }
 
 body main .cards .card .card-description {
@@ -149,6 +158,13 @@ body main .cards .card .card-description .title-card {
   font-weight: 500;
   margin-bottom: 20px;
   text-decoration: none;
+  -webkit-transition: color 350ms ease;
+  transition: color 350ms ease;
+}
+
+body main .cards .card .card-description .title-card:hover {
+  color: #67b54b;
+  cursor: pointer;
 }
 
 body main .cards .card .card-description .description {
